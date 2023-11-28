@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
 for char in range(ord('a'), ord('z') + 1):
-    if char != 'q' or char != 'e':
+    if chr(char) != 'q' or chr(char) != 'e':
         print("{}".format(chr(char)), end="")
 
