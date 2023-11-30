@@ -12,6 +12,3 @@ def uppercase(input_str):
 
         # Print the uppercase character without a newline
         print(uppercase_char, end="")
-
-    # Print a newline after the loop
-    print()
