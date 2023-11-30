@@ -8,7 +8,3 @@ def fizzbuzz():
             print("Buzz", end=" ")
         else:
             print(num, end=" ")
-
-if __name__ == "__main__":
-    fizzbuzz()
-    print()
