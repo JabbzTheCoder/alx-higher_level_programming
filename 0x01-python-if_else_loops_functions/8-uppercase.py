@@ -15,6 +15,3 @@ def uppercase(input_str):
 
     # Print a newline after the loop
     print()
-
-# Example usage
-uppercase("Hello, World!")
