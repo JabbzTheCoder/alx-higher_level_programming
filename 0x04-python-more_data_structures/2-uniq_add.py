@@ -9,6 +9,7 @@ def uniq_add(my_list=[]):
             num_to_add.append(my_list[i])
 
     
-    results = list(map(lambda x, y: x + y, results, my_list))
+    for i in num_to_add:
+        results += i;
 
     return(results)
