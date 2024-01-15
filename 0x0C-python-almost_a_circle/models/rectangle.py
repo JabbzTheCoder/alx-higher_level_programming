@@ -97,6 +97,7 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         """Update the Rectangle.
+
         Args:
             *args (ints): New attribute values.
                 - 1st argument represents id attribute
